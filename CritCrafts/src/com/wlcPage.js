@@ -49,8 +49,7 @@ const WelcomePage = () => {
             <img
               src={circuitCraftsLogo}
               alt="CircuitCrafts Logo"
-              height="30"
-              className="d-inline-block align-top"
+              className="logo-img d-inline-block align-top img-fluid"
             />
       </Navbar.Brand>
       
