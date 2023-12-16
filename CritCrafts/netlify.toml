@@ -1,4 +1,7 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+
+
+[build]
+  base = "subdirectory"
+  command = "npm run build"
+  publish = "subdirectory/build"
+  functions = "functions"
